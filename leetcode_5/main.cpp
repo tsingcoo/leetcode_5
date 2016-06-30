@@ -6,10 +6,12 @@
 //  Copyright © 2016 王青龙. All rights reserved.
 //
 
+#include "Header.h"
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    string s="fdjaskfjjfjfjfaksdj";
+    Solution so;
+    cout<<so.longestPalindrome(s)<<endl;
     return 0;
 }
